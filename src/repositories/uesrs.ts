@@ -1,4 +1,4 @@
-import userModule from "../modules/users";
+import userModule from "../models/users";
 
 const getUserByEmail = async (email: string) => {
   const res = await userModule.find({ email });
