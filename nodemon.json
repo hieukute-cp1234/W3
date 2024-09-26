@@ -1,7 +1,7 @@
 {
-  "watch": ["/"],
-  "ext": "ts",
-  "exec": "npm run build && node dist/bundle.js",
+  "watch": ["src"],
+  "ext": ".ts,.js",
+  "exec": "ts-node ./src/index.ts",
   "ignore": ["dist"],
   "restartable": "rs",
   "execMap": {

@@ -1,16 +1,16 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "NodeNext",
     "outDir": "./dist",
+    "baseUrl": "src",
     "rootDir": "./",
     "esModuleInterop": true,
     "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
     "skipLibCheck": true,
     "removeComments": false
-  },
-  "ts-node": {
-    "esm": true
   },
   "exclude": ["node_modules"]
 }
