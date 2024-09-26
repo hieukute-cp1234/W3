@@ -1,0 +1,10 @@
+{
+  "watch": ["/"],
+  "ext": "ts",
+  "exec": "npm run build && node dist/bundle.js",
+  "ignore": ["dist"],
+  "restartable": "rs",
+  "execMap": {
+    "ts": "ts-node --transpileOnly"
+  }
+}
